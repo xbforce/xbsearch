@@ -3,9 +3,9 @@
 Search a list of words on DuckDuckGo and gather unique domains from the results pages.
 
 ```
-$ xbgog.py -h
+$ xbsearch.py -h
 
-usage: xbgog.py [-h] -f FILE [-o OUTPUT] [-v] [-d DORK] [-p PAGES]
+usage: xbsearch.py [-h] -f FILE [-o OUTPUT] [-v] [-d DORK] [-p PAGES]
 ```
 
 **options:**
@@ -29,5 +29,9 @@ usage: xbgog.py [-h] -f FILE [-o OUTPUT] [-v] [-d DORK] [-p PAGES]
 **Examples: **
 
 ```
-python3 xbgog.py -f words.txt python3 xbgog.py -f words.txt -p 10 python3 xbgog.py -f words.txt -o mydomains.txt -d "site:*.net"
+$ python3 xbsearch.py -f words.txt
+
+$ xbsearch.py -f words.txt -p 10
+
+$ xbsearch.py -f words.txt -o mydomains.txt -d "site:*.net"
 ```
