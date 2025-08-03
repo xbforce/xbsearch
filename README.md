@@ -26,7 +26,7 @@ usage: xbsearch.py [-h] -f FILE [-o OUTPUT] [-v] [-d DORK] [-p PAGES]
                         The number of search result pages to retrieve (default: 3, each page has ~10 results).
 ```
 
-**Examples: **
+**Examples:**
 
 ```
 $ python3 xbsearch.py -f words.txt
